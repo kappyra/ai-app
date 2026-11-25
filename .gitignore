@@ -1,0 +1,9 @@
+# артефакты сборки и локальные данные
+*.tar
+*.log
+logs/
+__pycache__/
+*.pyc
+.env
+.venv/
+.DS_Store
