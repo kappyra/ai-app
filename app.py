@@ -6,7 +6,7 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-MESSAGE = os.environ.get("APP_MESSAGE", "AI app запущено")
+MESSAGE = os.environ.get("APP_MESSAGE", "Версия 2: привет из GitHub Actions")
 PORT = int(os.environ.get("APP_PORT", "8000"))
 
 import os as _os
